@@ -1,0 +1,96 @@
+body{
+  margin: 0;
+}
+.mainContainer {
+  max-width: 376px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  flex: 2;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 2;
+}
+
+input{
+  border-style: hidden;
+  height: 40px;
+  border-bottom: 1px solid #7d7773;
+}
+
+input:focus {
+  outline-color: #7d7773;
+}
+
+::-webkit-input-placeholder {
+   color: #9ccf8a;
+}
+
+label{
+  color: darkgray;
+}
+
+
+.email{
+    margin-bottom: 8%;
+}
+
+#email{
+  padding-right: 51px;
+}
+
+#password{
+  padding-right: 28px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+
+  flex: 1;
+}
+
+.footer > div{
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.footer p{
+  color: white;
+}
+
+.singIn{
+  width: 100%;
+
+  background: #9ccf8a;
+}
+
+.singUp{
+  width: 100%;
+
+  background: #7d7773;
+}
